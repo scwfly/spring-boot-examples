@@ -27,6 +27,6 @@ public class ResourceWebMvcConfigurer implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:img/")   //映射resources下img文件夹，可以指定多个
-                .addResourceLocations("file:C:\\Users\\neusoft\\Desktop\\"); //映射本地文件
+                .addResourceLocations("file:C:\\Users\\Desktop\\"); //映射本地文件
     }
 }
